@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align:  center;
+   
+    position: relative;
+    width: 100%;
+    background-color: rgb(222, 222, 146);
+    padding: 20px;
+}
+#menu{
+    position: relative;
+    top: 1vw;
+    left: 5vw;
+    display: none;
+}
+
+#img{
+     
+    width: 120px;
+   margin-left: 40px;
+  
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: mediumturquoise;
+    align-items: center;
+
+}
+#cat{
+    
+    position: relative;
+    /* top: 8px; */
+    font-size: 20px;
+    
+}
+.cate{
+    position: relative;
+
+}
+.cate p{
+    display: block;
+}
+.cate p:hover{
+    color: blue;
+}
+.cate .catec{
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background-color: white;
+    border: 1px solid burlywood;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+    padding: 20px 40px 20px 20px;
+    text-align: left;
+    width: 250%;
+    font-size: 14px;
+}
+.cate .catec p{
+    margin: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.6s;
+    color: black
+}
+.cate .catec p:hover{
+    color: blue;
+}
+.cate:hover .catec{
+    display: block;
+}
+.search-div{
+    background-color:white;
+    width: 400px;
+    border-radius: 30px;
+    height: 50px;
+   
+}
+#input-search{
+    width: 10vw;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 40px;
+    padding-top: 20px;
+    
+
+}
+#search-icon{
+    position: relative;
+    
+    left: 15px;
+}
+
+a{
+    position: relative;
+    
+    text-decoration: none;
+    font-size: 20px;
+}
+.ub{
+    position: relative;
+}
+.ub a{
+    display: block;
+}
+.ub a:hover{
+    color: blue;
+}
+.ub .ubc{
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: -194px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+    padding: 20px 40px 20px 20px;
+    text-align: center;
+    width: 200%;
+    font-size: 14px;
+}
+.ub .ubc h2:hover{
+    color: blue;
+}
+.ub:hover .ubc{
+    display: block;
+}
+.ubc h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 150;
+
+}
+.ubc button{
+    
+    margin-left: 2px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    width: 17vw;
+    margin-top: 5px;
+}
+
+.tou{
+    position: relative;
+}
+.tou a{
+    display: block;
+}
+.tou a:hover{
+    color: blue;
+}
+.tou .touc{
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: -194px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+   padding: 20px;
+    text-align:center;
+    width: 200%;
+    font-size: 14px;
+}
+.tou .touc h2:hover{
+    color: blue;
+}
+.tou:hover .touc{
+    display: block;
+}
+.touc h2{
+    
+    font-size: 23px;
+    font-weight: 150;
+
+}
+.touc button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    width: 16vw;
+    margin-top: 10px;
+   
+}
+
+
+#cart{
+    /* height: 30px;
+    width: 30px; */
+    
+    font-size: 30px;
+}
+.kart{
+    position: relative;
+}
+.kart i{
+    display: block;
+}
+.kart i:hover{
+    color: blue;
+}
+.kart .kartc{
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: -194px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+    padding: 20px 40px 20px 20px;
+    text-align: center;
+    width: 500%;
+    font-size: 14px;
+}
+.kart .kartc h2:hover{
+    color: blue;
+}
+.kart:hover .kartc{
+    display: block;
+}
+.kartc p{
+    font-size: large;
+    font-weight: 200;
+   
+    padding-bottom: 20px;
+ }
+ .kartc a{
+    font-size: 18px;
+    
+    
+ }
+
+.log{
+    position: relative;
+    
+  
+    text-decoration: none;
+    border: 2px solid black;
+    
+    padding: 5px;
+    background-color: white;
+   
+}
+.sign{
+    position: relative;
+   
+    text-decoration: none;
+    border: 2px solid black;
+    
+    padding: 5px;
+    background-color:rgb(231, 223, 223);
+    color: white;
+    
+}
+#globe{
+    position: relative;
+    
+
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 5px;
+   
+    margin-right: 10px;
+}
+
+
+.section{
+   /* display: block; */
+   width: 100%;
+   height: 80px;
+  
+
+}
+
+.bg-img{
+    height: 400px;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    
+    background-image: url("https://img-c.udemycdn.com/notices/web_carousel_slide/image/139c6d08-df69-4a14-8e15-4d6085c62b03.jpg");
+
+}
+.container{
+    
+    width: 25vw;
+    background-color: white;
+    
+    padding: 30px;
+    position: relative;
+    top: 40px;
+   
+    left: 20px;
+
+}
+.text{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 18px;
+
+}
+.text p{
+    margin-top: 5px;
+    
+}
+.card-img{
+    position: relative;
+    top: 2vw;
+    display: flex;
+   
+    justify-content: space-between; 
+    left: 20px;
+    margin-right: 30px;    
+    
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 2px;
+    
+   
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    
+}
+.posi{
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.card i{
+    color: gold;
+    margin-top: 8px;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+#dash{
+    text-decoration:line-through;
+    
+}
+#bs{
+    border: 1px solid black;
+    width: 5vw;
+    padding: 4px;
+    
+    background-color: burlywood;
+    position: relative;
+    top: 5px;
+}
+.card{
+    position: relative;
+}
+.card img{
+    display: block;
+}
+
+.card-img .card .card1{
+    display: none;
+    position: absolute;
+    top: -150px;
+    left: 22vw;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+    padding: 20px 40px 20px 20px;
+    text-align: left;
+    width: 500%;
+    font-size: 14px;
+}
+
+ .card:hover .card1{
+    display: block;
+}
+.card-img .card .card1{
+    width: 22vw;
+    height: 29vw;
+
+}
+.card-img .card .card1 h6{
+    border: 1px solid black;
+    width: 10vw;
+    height: 1vw;
+    padding: 5px;
+    font-size: 15px;
+    background-color: orange;
+}
+.card-img .card .card1 .btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+   
+}
+.card-img .card .card1 .btn button{
+    width: 20vw;
+    height: 3vw;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+.card-img .card .card1 .btn h5{
+    font-size: 20px;
+    margin-left: 20px;
+   
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-img .card .card1 .ctxt{
+    left: 10px;
+    justify-content: space-between;
+}
+
+.card{
+    position: relative;
+}
+.card img{
+    display: block;
+}
+
+.card-img .card .card4{
+    display: none;
+    position: absolute;
+    top: -150px;
+    left: -27vw;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
+    z-index: 1000;
+    padding: 20px 40px 20px 20px;
+    text-align: left;
+    width: 500%;
+    font-size: 14px;
+}
+
+ .card:hover .card4{
+    display: block;
+}
+.card-img .card .card4{
+    width: 22vw;
+    height: 29vw;
+
+}
+.card-img .card .card4 h6{
+    border: 1px solid black;
+    width: 10vw;
+    height: 1vw;
+    padding: 5px;
+    font-size: 15px;
+    background-color: orange;
+}
+.card-img .card .card4 .btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+   
+}
+.card-img .card .card4 .btn button{
+    width: 20vw;
+    height: 3vw;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+.card-img .card .card4 .btn h5{
+    font-size: 20px;
+    margin-left: 20px;
+   
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-img .card .card4 .ctxt{
+    left: 10px;
+    justify-content: space-between;
+}
+
+
+    
+   
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 20vw;
+     background-color: rgb(52, 50, 50); 
+    margin-top: 3rem;
+    list-style: none;
+}
+ .txte{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(38, 38, 38);
+    padding-bottom: 15px;
+    
+   
+}
+ .txte ,#t{
+    color: white;
+    font-size: 20px;
+}
+ .txte,#t a{
+    color: skyblue;
+} 
+ .txte #img{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 420px;
+   
+   
+}
+ .txte img{
+    padding-left: 20px;
+}
+.ftxt{
+    display: flex;
+    padding: 10px;
+    
+}
+.one {
+  padding: 10px 0px;
+}
+.one  a{
+    color: white;
+    padding-inline: 50px;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 10px;
+     
+}
+.wld{
+    color: white;
+    display: flex;
+    border: 1px solid white;
+    width: 10vw;
+    height: 2vw;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 10px;
+
+    
+    
+}
+.wld h5{
+    padding: 5px;
+    margin-left: 5px;
+}
+.fimg img{
+    width: 6vw;
+    height: 2vw;
+    margin-left: 60px;
+    margin-top: 30px;
+  
+}
+
+
+
+
+
+ 
+ 
+ 
+   
+ 
+
+
+
+ 
+@media  screen and (max-width:600px){
+    #cat,.search-div,.ub,.tou,.log,.sign,#globe{
+        display: none;
+    }
+    #menu{
+        display: flex;
+
+    }
+    #cart{
+        margin-left: 20vw;
+    }
+    #img{
+        margin-left: 20vw;
+    }
+    .container{
+        width: 30vw;
+    }
+    .card-img{
+         width: 100%; 
+        display: grid;
+        grid-template-columns: repeat(4,350px);
+        gap: 10px;
+         overflow: scroll;
+    }
+    .kart .kartc {
+        width: 28vw;
+        left: -10vw;
+        
+    }
+    .card-img .card .card1{
+        display: none;
+        position: absolute;
+        top: -150px;
+        left: 22vw;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 0 4px 8px rgb(10, 10, 10);
+        z-index: 1000;
+        padding: 20px 40px 20px 20px;
+        text-align: left;
+        width: 500%;
+        font-size: 14px;
+    }
+
+    .card-img .card .card4{
+        display: none;
+        position: absolute;
+        top: -150px;
+        left: -27vw;
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 0 4px 8px rgb(10, 10, 10);
+        z-index: 1000;
+        padding: 20px 40px 20px 20px;
+        text-align: left;
+        width: 500%;
+        font-size: 14px;
+    }
+    
+    
+    }
+
+    
+   
+
+ 
